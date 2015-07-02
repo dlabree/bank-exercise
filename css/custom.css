@@ -1,0 +1,46 @@
+/* navbar */
+.navbar {margin-bottom:0; height:70px}
+.navbar a {}
+.navbar .glyphicon {font-size:30px; height:40px}
+.navbar-brand {background:url(../images/bank_of_me_assets/bankofme_large.png) no-repeat; background-size: cover; width:70px; height:70px; border-radius:10%;}
+
+/* homepage */
+.home-image {background:url(../images/bank_of_me_assets/bank3.jpg) no-repeat; background-size:100%;}
+.jumbo-home {margin-top:20px; background-color:rgba(0,0,0,0.1); color:#fff; text-align:center;}
+.jumbotron h1 {font-size:2em;}
+.jumbotron p {font-size:1.4em;}
+.home-buttons1 {background-color:#469ceb; padding:0 10%}
+.home-buttons1 .btn-default {background-color:#469ceb; color:#ffffff; border-color:#ffffff;}
+.home-buttons1 .btn {border-radius:0}
+.home-buttons2 {text-align:center}
+.home-buttons2 .btn-default {background-color:transparent; color:#ffffff; border-width:2px; border-color:#ffffff; font-size:18px}
+.home-buttons2 .btn-primary {background-color:#e16399; color:#ffffff; border-width:2px;border-color:#ffffff; font-size:18px}
+.home-buttons2 .btn {margin:10px; }
+
+/* video chat */
+.vid-chat .panel-heading {background-color:#52b3a6; color:#ffffff; }
+.vid-chat .panel-heading .btn-default {background-color:transparent; color:#ffffff; border-width:1px; border-color:#ffffff;}
+.vid-chat .panel-body {background-color:#f0f8ff}
+.vid-chat .panel-footer {background-color:#f6f6f6}
+.vid-chat .panel-heading table {width:100%}
+
+.agent {clear:both; padding: 5px 0; border-bottom:1px dotted #666;}
+.agent-name {font-weight:bold;}
+.agent img {margin-right:10px}
+.timestamp {font-size:.8em; color:#aaa;}
+.chat-text {color:#666;}
+.customer {clear:both; padding: 5px 0; border-bottom:1px dotted #666;}
+.customer-name {font-weight:bold;}
+.customer img {margin-left:10px}
+.clr {clear:both}
+.utilities .glyphicon {border:1px solid #e16399; background-color:#fff; padding:10px; border-radius: 50%; font-size:1.5em; color:#e16399; margin:0 10px;}
+
+/* media queries */
+@media screen and (max-width: 768px) {
+.home-image {background-size:cover;}
+}
+@media screen and (max-width: 640px) {
+.home-image {background-size:cover;}
+.home-buttons2 .btn {margin:2%; width:96%}
+
+}
