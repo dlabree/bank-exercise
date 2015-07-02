@@ -19,10 +19,11 @@
 
 /* video chat */
 .vid-chat .panel-heading {background-color:#52b3a6; color:#ffffff; }
+.vid-chat .panel-heading table {width:100%}
 .vid-chat .panel-heading .btn-default {background-color:transparent; color:#ffffff; border-width:1px; border-color:#ffffff;}
 .vid-chat .panel-body {background-color:#f0f8ff}
 .vid-chat .panel-footer {background-color:#f6f6f6}
-.vid-chat .panel-heading table {width:100%}
+.vid-chat .panel-footer .btn-primary {background-color:#e16399; color:#ffffff; border:none}
 
 .agent {clear:both; padding: 5px 0; border-bottom:1px dotted #666;}
 .agent-name {font-weight:bold;}
